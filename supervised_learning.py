@@ -31,7 +31,7 @@ def run_supervised_learning():
     rf_preds = rf_model.predict(x_test_scaled)
 
     acc = accuracy_score(y_test, rf_preds)
-    print(f"Random forest accuracy: {acc:.4f}")
+    print(f"Random forest accuracy: {acc*100:.2f}%")
     print("\nClassification Report:")
     print(classification_report(y_test, rf_preds))
 
