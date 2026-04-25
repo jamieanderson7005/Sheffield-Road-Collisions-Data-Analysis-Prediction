@@ -15,3 +15,11 @@ For me, this project was all about developing a data driven framework that analy
 - **regression_analysis.py:** This file performs numerical predictions for the number of vehicles involved with the accident.
 - **main_sheffield_ai.py:** This file is the master script as it will execute all of the files in the correct sequence when it has been ran.
 - **Results:** This is the folder that includes all of the graphs used to visualise the data (Confusion matrices, scatter graphs, etc).
+
+## Dependencies:
+1. pandas
+2. scikit-learn
+3. imbalanced-learn
+4. matplotlib
+5. seaborn
+6. numpy
