@@ -23,3 +23,26 @@ For me, this project was all about developing a data driven framework that analy
 4. matplotlib
 5. seaborn
 6. numpy
+
+## Installation Instructions
+1. Extract all the files: Right click the compressed file (c4021414_Jamie.zip) and select Extract All
+2. Esnure you have python installed
+3. Install required tools:
+
+`pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn`
+
+## Usage
+1. Ensure the raw dataset is in the directory
+2. Run the master script:
+
+`python main_sheffield_ai.py`
+
+Note: The script will automatically verify the data, create the Results folder, and generate all charts/graphs.
+
+## AI Transparency Statement Declaration
+# Level 2: AI for Shaping
+AI was used in this project during the inital stages of the activity to help outline the system architecture and suggesting performance metrics. All modelling and logic were written and refined by myself.
+
+# AI prompt Logs
+1. Outlining: "Help me outline a Python script structure to run multiple ML models in an automated pipeline"
+2. Refining: "Which specific performance metrics are best for evaluating regression models predicting numerical counts?"
