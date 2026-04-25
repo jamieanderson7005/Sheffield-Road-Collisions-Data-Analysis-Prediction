@@ -48,8 +48,8 @@ def run_regression_analysis():
     plt.xlabel('Actual')
     plt.ylabel('Predicted')
     plt.grid(True, linestyle='--', alpha=0.6)
-    plt.savefig('regression_performance.png')
-    print("Plot saved: regression_performance.png")
+    plt.savefig('Results/regression_performance.png')
+    print("Plot saved: Results/regression_performance.png")
 
 if __name__ == "__main__":
     run_regression_analysis()

@@ -35,7 +35,7 @@ def run_unsupervised_learning():
     plt.xlabel('Easting')
     plt.ylabel('Northing')
 
-    plt.savefig('accident_hotspots.png')
+    plt.savefig('Results/accident_hotspots.png')
     print("Hotspot Map Saved")
 
 if __name__ == "__main__":

@@ -60,7 +60,7 @@ def run_comprehensive_workflow():
     plt.title('Sheffield Accident Classification: Confusion Matrix')
     plt.ylabel('Actual Category')
     plt.xlabel('Predicted Category')
-    plt.savefig('performance_evaluation_matrix.png')
+    plt.savefig('Results/performance_evaluation_matrix.png')
 
     print("\nResponsible AI & Ethics: ")
     print(f"Model utilizes {len(features)} features for geographic prediction.")

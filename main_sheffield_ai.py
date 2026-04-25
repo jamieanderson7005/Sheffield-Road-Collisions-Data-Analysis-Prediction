@@ -3,8 +3,13 @@ import regression_analysis
 import supervised_learning
 import unsupervised_learning
 import comprehensive_workflow
+import os
 
 def main():
+    if not os.path.exists('Results'):
+        os.makedirs('Results')
+        print("Created 'Results' folder for visualisations.")
+
     print("Master entry point for the Sheffield Road Collision Analysis")
 
     print("Running data cleaning and pre-processing")
